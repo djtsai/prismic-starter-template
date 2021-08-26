@@ -2,51 +2,52 @@ import React from "react";
 import { RichText, Link } from 'prismic-reactjs'
 
 const Header = ({ menu = [] }) => (
-    <header className="site-header">
-      <a href="/" className="logo">
-        {RichText.asText(menu.data.title)}
-      </a>
-      <Links menuLinks={menu.data.menu_links} />
-      <style jsx>{`
+  <header className="site-header">
+    <a href="/" className="logo">
+      {RichText.asText(menu.data.title)}
+    </a>
+    <Links menuLinks={menu.data.menu_links} />
+    <style jsx>{`
+      .site-header {
+        height: 30px;
+        padding: 20px 0;
+        color: #484d52;
+        font-weight: 700;
+      }
+      .site-header a {
+        color: #484d52;
+        font-weight: 700;
+      }
+      .site-header a:hover {
+        color: #72767B;
+      }
+      .site-header .logo {
+        display: inline-block;
+        font-size: 22px;
+        font-weight: 900;
+      }
+      @media (max-width: 1060px) {
         .site-header {
-          height: 30px;
-          padding: 20px 0;
-          color: #484d52;
-          font-weight: 700;
+          padding-left: 20px;
+          padding-right: 20px;
         }
-        .site-header a {
-          color: #484d52;
-          font-weight: 700;
+      }
+      @media (max-width: 767px) {
+        .site-header {
+          height: auto;
         }
-        .site-header a:hover {
-          color: #72767B;
+        .site-header {
+          position: absolute;
+          left: 0;
+          right: 0;
         }
         .site-header .logo {
-          display: inline-block;
-          font-size: 22px;
-          font-weight: 900;
+          display: block;
+          text-align: center;
         }
-        @media (max-width: 1060px) {
-          .site-header {
-            padding-left: 20px;
-            padding-right: 20px;
-          }
-        }
-        @media (max-width: 767px) {
-          .site-header {
-            height: auto;
-          }
-          .site-header {
-            position: absolute;
-            left: 0;
-            right: 0;
-          }
-          .site-header .logo {
-            display: block;
-            text-align: center;
-          }
-        `}</style>
-    </header>
+      }
+    `}</style>
+  </header>
 );
 
 const Links = ({menuLinks}) => {

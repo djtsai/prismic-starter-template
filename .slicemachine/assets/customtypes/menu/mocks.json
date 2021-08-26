@@ -1,0 +1,81 @@
+{
+  "id": "1473c772-4a4b-4ef2-bbd3-b8acfcac2f5f",
+  "uid": "cum-magnam-et",
+  "type": "menu",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Reinvent wireless partnerships",
+        "spans": []
+      }
+    ],
+    "menu_links": [
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Magna veniam labore pariatur do do voluptate deserunt deserunt aliquip et laborum reprehenderit nisi sit. Ad elit commodo duis sit sint nulla reprehenderit ad exercitation. Ullamco id pariatur cillum incididunt nisi.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Labore aliquip cupidatat anim fugiat aliqua qui amet. Ipsum irure sit est consequat sunt dolor labore ut sunt aute laboris culpa. Velit id dolor adipisicing labore nisi minim.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Dolore ipsum minim commodo elit sunt aliqua anim nostrud officia nisi dolore ut non enim ex. Sunt ea ea veniam sint non ea reprehenderit ad exercitation occaecat veniam exercitation nisi.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Dolor consectetur aliqua consectetur nostrud sunt mollit anim. Eu velit pariatur proident laboris reprehenderit nisi qui duis est tempor adipisicing labore. Cupidatat proident eu in minim proident reprehenderit ipsum.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "label": [
+          {
+            "type": "paragraph",
+            "text": "Lorem Lorem minim amet ea nisi id proident consequat.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ]
+  }
+}

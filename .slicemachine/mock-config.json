@@ -1,14 +1,15 @@
 {
-  "slices": {
-    "TextSlice": {},
-    "BannerSlice": {},
-    "FeaturedImage": {},
-    "FullWidthImage": {},
-    "QuoteSlice": {},
-    "ImageGallery": {}
-  },
+  "slices": {},
   "_cts": {
     "page": {},
-    "home-page": {}
+    "home-page": {},
+    "menu": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
   }
 }

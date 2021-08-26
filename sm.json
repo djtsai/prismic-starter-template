@@ -1,5 +1,5 @@
 {
-  "apiEndpoint": "https://daniel-tsai-website.cdn.prismic.io/api/v2",
+  "apiEndpoint": "https://[your-website-name].cdn.prismic.io/api/v2",
   "libraries": [
     "@/slices"
   ],

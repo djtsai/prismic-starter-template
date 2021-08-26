@@ -3,38 +3,12 @@
   "label": "Page",
   "repeatable": true,
   "json": {
-    "Page": {
+    "Main": {
       "uid": {
         "type": "UID",
         "config": {
           "label": "UID",
           "placeholder": "unique-identifier-eg-homepage"
-        }
-      },
-      "body": {
-        "type": "Slices",
-        "fieldset": "Slice Zone",
-        "config": {
-          "choices": {
-            "featured_image": {
-              "type": "SharedSlice"
-            },
-            "full_width_image": {
-              "type": "SharedSlice"
-            },
-            "text_slice": {
-              "type": "SharedSlice"
-            },
-            "image_gallery": {
-              "type": "SharedSlice"
-            },
-            "banner_slice": {
-              "type": "SharedSlice"
-            },
-            "quote_slice": {
-              "type": "SharedSlice"
-            }
-          }
         }
       }
     },
